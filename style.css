@@ -20,9 +20,17 @@ body {
     margin: 0;
     cursor: pointer;
 }
+
 .container button:hover{
     background-color: rgba(253, 76, 34, .8);
 }
 .container button:active{
     background-color: rgba(253, 76, 34, .6);
+}
+
+.container .abcd{
+    margin-top: 40px;
+    background-image: url(./bg.jpg);
+    width: 200px;
+    height: 134px;
 }
